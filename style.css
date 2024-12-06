@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-box {
+    margin: auto;
+    width: 1000px;
+    height: 242px;
+    background: gray;
+    padding: 30px;
+}
+
+.main-box {
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    background: gray;
+}
+
+table {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: solid 1px black;
+    padding: 5px;
+}
+
+.table-2,
+.table-1 tr:nth-child(odd){
+    background: gainsboro ;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.form-box {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    margin-top: 55px;
+}
+
+.name {
+    margin-bottom: 20px;
+}
+
+.gender,
+.language {
+    margin-top: 20px;
+}
